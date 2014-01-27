@@ -40,7 +40,7 @@ Specifically, the core functionality of your project must satisfy the following 
 
 - Output the inverted index to a text file if the proper command-line parameters are provided. See the **Output** section below for specifics.
 
-You must satisfy the core functionality prior to submitting your project for code review. See the **Project Submission** guide for specifics.
+You must satisfy the core functionality prior to submitting your project for code review. See the **[Project README](README.md)** for specifics.
 
 ## Design ##
 
@@ -89,6 +89,6 @@ https://www.cs.usfca.edu/svn/username/cs212/project1
 
 where `username` should be replaced with your CS username. Verify that your repository includes the `src` directory with all of the `*.java` files necessary to compile your program.
 
-:bulb: See the **Project Submission** guide for additional details on testing, submission, and code review.
+:bulb: See the **[Project README](README.md)** for additional details on testing, submission, and code review.
 
 
