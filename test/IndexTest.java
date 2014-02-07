@@ -93,7 +93,7 @@ public class IndexTest {
 
 			Path input  = Paths.get(base, "input", "index", "simple");
 			Path output = Paths.get(base, "output", name);
-			Path result = Paths.get(base, "result", name);
+			Path result = Paths.get("result", name);
 
 			String[] args = new String[] {
 					"-d", input.toAbsolutePath().normalize().toString(),
@@ -110,7 +110,7 @@ public class IndexTest {
 
 			Path input  = Paths.get(base, "input", "index", "simple");
 			Path output = Paths.get(base, "output", name);
-			Path result = Paths.get(base, "result", name);
+			Path result = Paths.get("result", name);
 
 			String[] args = new String[] {
 					"-i", result.toAbsolutePath().normalize().toString(),
@@ -127,7 +127,7 @@ public class IndexTest {
 
 			Path input  = Paths.get(base, "input", "index", "rfcs");
 			Path output = Paths.get(base, "output", name);
-			Path result = Paths.get(base, "result", name);
+			Path result = Paths.get("result", name);
 
 			String[] args = new String[] {
 					"-d", input.toAbsolutePath().normalize().toString(),
@@ -144,7 +144,7 @@ public class IndexTest {
 
 			Path input  = Paths.get(base, "input", "index", "gutenberg");
 			Path output = Paths.get(base, "output", name);
-			Path result = Paths.get(base, "result", name);
+			Path result = Paths.get("result", name);
 
 			String[] args = new String[] {
 					"-d", input.toAbsolutePath().normalize().toString(),
@@ -161,7 +161,7 @@ public class IndexTest {
 
 			Path input  = Paths.get(base, "input", "index");
 			Path output = Paths.get(base, "output", name);
-			Path result = Paths.get(base, "result", name);
+			Path result = Paths.get("result", name);
 
 			String[] args = new String[] {
 					"-d", input.toAbsolutePath().normalize().toString(),
