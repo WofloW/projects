@@ -79,6 +79,30 @@ platypus
 
 The word is listed alone on a single line, followed by lines with the absolute file path, and a comma-separated list of locations. An empty line should separate entries. The words should be output in sorted order, and the files should be sorted by the absolute path name.
 
+## Hints ##
+
+It is important to develop the project **iteratively**. In fact, you may already have certain components complete thanks to the homework assignments. One possible breakdown of tasks are:
+
+- Create code that handles parsing command-line arguments, so that you can easily retreive the directory containing the text files to parse. Test your code.
+
+- Create code that is able to traverse a directory and return a list of all the text files found within that directory. Test your code.
+
+- Create code that handles parsing a single text file into words. Test your code.
+
+- Create code that handles storing a word, file path, and location into an inverted index data structure. Test your code.
+
+- Integrate your code. 
+ 
+    - Make your code that parses a text file into words store words in an inverted index data structure.
+    
+    - Make your code that traverses a directory work with the code that parses a text file and stores words into an inverted index data structure.
+    
+    - Make your code that parses command-line arugments work with the code that traverses a directory, and so on.
+
+The important part will be to **test your code as you go**. The JUnit tests provided only test the entire project as a whole, not the individual parts. You are responsible for testing the individual parts themselves.
+
+:bulb: These hints may or may _not_ be useful depending on your approach. Do not be overly concerned if you do not find these hints helpful for your approach for this project.
+
 ## Submission ##
 
 You must commit your project to your SVN repository using Eclipse at:
