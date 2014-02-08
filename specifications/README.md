@@ -47,7 +47,9 @@ If your project does not pass verification, there is either an issue with your s
 
 Once you have verified your project is properly submitted and passing the necessary JUnit tests, you may sign up for code review.
 
-1. Fill out the **Project Submission Form** indicating you want to submit your project for code review. This form is used to track your submissions for each project. If you fill out this form before your project passes verification or multiple times for a single review request, you risk having your project score docked 5 points per erroneous submission.
+1. Fill out the [**Project Submission Form**](https://docs.google.com/a/cs.usfca.edu/forms/d/1LlC6LnH0_xGULGlnDC7LqIL-0zjlwrXvaLs6V5Ueqqw/viewform) indicating you want to submit your project for code review. This form is used to track your submissions for each project. If you fill out this form before your project passes verification or multiple times for a single review request, you risk having your project score docked 5 points per erroneous submission.
+
+  > [**:memo: Submit Project Now**](https://docs.google.com/a/cs.usfca.edu/forms/d/1LlC6LnH0_xGULGlnDC7LqIL-0zjlwrXvaLs6V5Ueqqw/viewform)
 
 2. Wait for the instructor or teacher assistant to respond with additional instructions. You should receive a response within 1 or 2 days of submission. During this time, we confirm you are submitting the correct project (i.e. are not submitting project 2 before you passed project 1) and run the `verify` command.
 
