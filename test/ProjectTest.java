@@ -78,7 +78,7 @@ public class ProjectTest {
 		String base = getBaseDirectory();
 		Path input  = Paths.get(base, "input");
 		Path output = Paths.get(base, "output");
-		Path result = Paths.get(base, "result");
+		Path result = Paths.get("result");
 
 		try {
 			Files.createDirectories(result);
