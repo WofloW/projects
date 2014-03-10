@@ -142,7 +142,20 @@ Note that while the search results for any query are sorted, the queries out out
 
 It is important to develop the project **iteratively**. One possible breakdown of tasks are:
 
-- Pending
+- Create a class that stores a single search result and implements the [`Comparable`](http://docs.oracle.com/javase/7/docs/api/java/lang/Comparable.html) interface. You will need data members for each of the sort criteria (frequency, initial position, and path).
+
+- Add a partial search method to your inverted index data structure that takes already parsed words from a single query, and returns a sorted list of search results. 
+
+- Use lists and [`Collections.sort(List)`](http://docs.oracle.com/javase/7/docs/api/java/util/Collections.html#sort(java.util.List)) to sort search results, not a [`TreeSet`] data structure. *Custom mutable objects do not behave well when used in sets or as keys in maps.*
+
+- Create a query helper class, that is able to parse the query file into lines and lines into either an array or list of cleaned words. For each query parsed, use the search method for your inverted index to get the results and save them to be output to a file later.
+
+- Do not worry about efficient partial search until *after* you are getting correct results.
+
+These code demos may be useful for this project:
+
+- [`SortDemo.java`](https://github.com/cs212/demos/blob/master/Inheritance/src/SortDemo.java)
+- [`FindDemo.java`](https://github.com/cs212/demos/blob/master/Data%20Structures/src/FindDemo.java)
 
 The important part will be to **test your code as you go**. The JUnit tests provided only test the entire project as a whole, not the individual parts. You are responsible for testing the individual parts themselves.
 
