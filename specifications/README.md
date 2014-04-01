@@ -4,8 +4,8 @@ Project Specifications
 See the following links for the specification document for each of the projects required by this course.
 
 - [Project 1 Inverted Index](Project 1 Inverted Index.md)
-- Project 2 Partial Search
-- Project 3 Multithreading
+- [Project 2 Partial Search](Project 2 Partial Search.md)
+- [Project 3 Multithreading](Project 3 Multithreading.md)
 - Project 4 Web Crawler
 - Project 5 Search Engine
 
